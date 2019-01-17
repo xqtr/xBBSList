@@ -92,7 +92,14 @@
     .:: bbsautolist_creator ::.
     
     Just execute the file and fill the fields. Its easy... Select "Save" to 
-    create the file to be populated in the echoarea
+    create the file to be populated in the echoarea.
+    
+    When you post the file make sure that it has a subject like this:
+    
+    bbs_ping_project
+    
+    No spaces! Probably it will be changed in the future cause its too lame :)
+    But for now, will use that.
     
     
     .:: bbsautolist_viewer ::.
