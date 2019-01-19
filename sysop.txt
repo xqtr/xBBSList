@@ -155,16 +155,24 @@
    |                                        |___|                            |
    + --- --  -   .     -        ---    ---    ---        -     .    - -- --- ´
    
-    .:. December 2018 - Alpha Version for testing purposes
+    .:. December 2018 - Alpha Version for testing purposes 001
      `  + First Release
         
-    .:. January  2019 - Alpha Version for testing purposes
+    .:. January  2019 - Alpha Version for testing purposes 002
      `  + Added capabilty to Save/Load the data file
         + Changed the format of the saved file. The first release is not
           compatible with the new format.
         + Fixed bug in the ANSI viewer
         + Each field has a Help line to describe what sort of info the field
           supports.
+          
+    .:. January  2019 - Alpha Version for testing purposes 003
+     `  + Fixed bug, while searching the JAM Base
+        + Added capability to search in multiple JAM Bases
+        + Added function to search for string in the database
+        + Added function to export and download the database in various formats
+          Currently supports only text file. CSV and SyncTerm will be added
+          and if possible in Netrunner format.
           
    + --- --  -   .     -        ---    ---    ---        -     .    - -- --- ´
    |        _ _                                                              |
