@@ -123,12 +123,14 @@
    Edit the included INI file and enter the correct info. The file is like 
    this:
    
-   [jam]
+   [jam1]
    file=/home/x/mystic/msgs/bots
    last=1
 
    [main]
    days_old=3
+   bases=1
+   download=/home/x/mystic/sexyz %f -telnet sz
    
    The "file" is the JAM base the program should look for the info/data files.
    No need to enter an extension, as JAM bases come with 4 files, so just enter
@@ -138,6 +140,10 @@
    the JAM base. When you create the file or download it from here, you can
    enter the value 1 or the value of the last message in the specific JAM base.
    
+   You can read multiple JAM bases. Create one stanza for each base, but don't
+   forget to write down the number of bases in the [main] stanza:
+   --> bases=1 means to search for one base, bases=2 search two etc.
+   
    The "days_old" field is a little bit tricky. This value is measured in days.
    So in the example above "3" means 3 days... so the program, will check if
    a BBS in its database has too many days to populate its data/info file and
@@ -145,6 +151,12 @@
    populated the file for 3 days, the program will remove it from the database.
    This way, the list will contain only recently active BBSes!!! and the list
    wont be older than 3 days.
+   
+   Also added the feature to download an exported list. To do that, you have to 
+   pass a command which will initiate the download/zmodem process. In the 
+   example above i use sexyz. %f is a string code, to where to put the filename
+   of the exported list. If you have sexyz on your system just change the path
+   for sexyz and leave all other as it is.
 
    + --- --  -   .     -        ---    ---    ---        -     .    - -- --- ´
    |        _ _                                                              |
